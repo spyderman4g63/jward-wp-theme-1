@@ -27,15 +27,12 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 			
-		<!-- drop Google Analytics Here -->
-		<!-- end analytics -->
-		
 	</head>
 	
 	<body <?php body_class(); ?>>
 	
 		<div id="container">
-			
+
 			<header class="header" role="banner">
 			
 				<div id="inner-header" class="wrap clearfix">
@@ -44,7 +41,7 @@
 					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 					
 					<!-- if you'd like to use the site description you can un-comment it below -->
-					<?php // bloginfo('description'); ?>
+					<?php bloginfo('description'); ?>
 					
 					
 					<nav role="navigation">
